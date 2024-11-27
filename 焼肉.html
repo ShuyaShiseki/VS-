@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>店舗案内 - 焼肉 牛工大</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #8b0000;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            background-color: #d3d3d3;
+            padding: 0.5rem;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 1.5rem;
+        }
+
+        article {
+            background: #fff;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1rem;
+        }
+
+        .images-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start; /* 上部揃え */
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .images-row div {
+            flex: 1;
+            text-align: center;
+        }
+
+        .images-row h3 {
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        .images-row img {
+            width: 100%;
+            height: auto;
+            max-width: 400px; /* 画像の最大幅を少し大きく */
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .group-image {
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+
+        .group-image img {
+            width: 90%; /* グループ画像も少し大きく */
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer-info {
+            background-color: #f4f4f4;
+            border-top: 2px solid #ddd;
+            padding: 1.5rem;
+            text-align: center;
+            margin-top: 1.5rem;
+            font-size: 1.2rem;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer-info h2 {
+            margin: 0 0 1rem;
+            font-size: 1.8rem;
+        }
+
+        .footer-info p {
+            margin: 0.5rem 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>店舗案内 - 焼肉 牛工大</h1>
+        <p>最高の焼肉を楽しめる店舗のご案内</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">店舗案内</a></li>
+            <li><a href="焼肉メニュー.html">メニュー</a></li>
+            <li><a href="焼肉アクセス.html">アクセス</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article id="about">
+            <h2>店舗案内</h2>
+            <p>焼肉 牛工大は、地元産の最高品質のお肉をご提供する焼肉専門店です。<br>シンプルでモダンな雰囲気の中で、焼肉をお楽しみいただけます。</p>
+            <div class="images-row">
+                <div class="exterior-image">
+                    <h3>店舗外観</h3>
+                    <img src="焼肉や外観.png" alt="店舗外観">
+                </div>
+                <div class="store-image">
+                    <h3>店内雰囲気</h3>
+                    <img src="店内.jpg" alt="店内の雰囲気">
+                </div>
+            </div>
+            <div class="group-image">
+                <h3>大勢での利用も可能です</h3>
+                <img src="焼肉パーティー.png" alt="大勢で焼肉を楽しむ様子">
+            </div>
+        </article>
+    </main>
+
+    <div class="footer-info">
+        <h2>店舗情報</h2>
+        <p><strong>店名:</strong> 牛工大</p>
+        <p><strong>住所:</strong> 〒000-0000 焼肉市美食町1-2-3</p>
+        <p><strong>電話番号:</strong> 000-456-7890</p>
+        <p><strong>メール:</strong> <a href="mailto:info@yakiniki.umai.up">info@yakiniki.umai.up</a></p>
+    </div>
+    <footer>
+        <p>&copy; 2024 焼肉 牛工大 </p>
+        <p>Email: info@yakiniki.umai.up</p>
+    </footer>
+
+</body>
